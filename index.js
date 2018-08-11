@@ -44,6 +44,7 @@ makeInt('no', 1);
 function preserveDecimal (n){
   return parseFloat(n);
 }
-
+preserveDecimal(1.2);
+preserveDecimal('no');
 
 
