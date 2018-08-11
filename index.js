@@ -39,7 +39,7 @@ function makeInt(n, x)
   return parseInt(n, x);
 }
 makeInt('1.2', 1);
-makeInt('1.2', 10);
+makeInt('10', 10);
 makeInt('no', 1);
 function preserveDecimal (n){
   return parseFloat(n);
