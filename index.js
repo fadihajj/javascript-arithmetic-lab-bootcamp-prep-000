@@ -1,1 +1,5 @@
-console.log(parseInt('nonsense',10));
+function add(a,b)
+{
+  var num = a+b;
+  return num;
+}
