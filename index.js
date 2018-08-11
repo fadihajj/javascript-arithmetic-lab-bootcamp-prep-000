@@ -34,13 +34,13 @@ function dec(n)
   return n;
 }
 dec(2);
-function makeInt(n, x)
+function makeInt(n)
 {
-  return parseInt(n, x);
+  return parseInt(n, 10);
 }
-makeInt('1.2', 10);
-makeInt('10', 10);
-makeInt('no', 1);
+makeInt('1.2');
+makeInt('10');
+makeInt('no');
 function preserveDecimal (n){
   return parseFloat(n);
 }
